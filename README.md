@@ -10,15 +10,15 @@
 
 
 
-## **Objectives**
+## **Objectives:**
 
 
 
-## **Instructions to replicate**
+## **Instructions to replicate:**
 
 
 
-## **Files**
+## **Files:**
 
 
 

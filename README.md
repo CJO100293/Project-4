@@ -4,7 +4,6 @@
 - Tyler White
 - Lauren Amoroso
 
-
 ## **Background:**
 We are taking data from a bank loan status dataset taken from https://www.kaggle.com/datasets/zaurbegiev/my-dataset?select=credit_test.csv and using it to predict the probababilty of a loan defaulting using machine learning algorithms.
 
@@ -23,13 +22,13 @@ We will train a model with machine learning using the bank loan status dataset t
 
 ## **Instructions to replicate:**
 
-
 ## **Files:**
 - **README.md** - This readme file.
 - **/Resources/credit_data.csv** - The original dataset that is used in our project before any ETL work was performed.
 - **/ETL/ETL.ipynb** - This jupyter notebook takes the data from "/Resources/credit_data.csv" and performs some cleanup (ETL) work of the data anbd then exports it to a new CSV file located at "/output_data/ETL/csv/ETL_credit_data.csv".
 - **/ETL/ETL_colab.ipynb** - This jupyter notebook does the same as "/ETL/ETL.ipynb" except this version can be ran in the cloud using Google Colab
 - **"/output_data/ETL/csv/ETL_credit_data.csv"** - This CSV file is what is created after ETL work is performed on the original data using "/ETL/ETL.ipynb".
+- **"/output_data/ETL/csv/import.bat"** - This batch file takes the csv files located in the "/output_data/ETL/csv" and imports it into a mongodb database.
 
 ## **Sources:**
 - Our dataset located in "/Resources/credit_data.csv" originated from https://www.kaggle.com/datasets/zaurbegiev/my-dataset?select=credit_test.csv. We renamed it from "credit_test.csv" to "credit_data.csv".

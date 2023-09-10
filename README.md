@@ -12,7 +12,7 @@ We will train a model with machine learning using the bank loan status dataset t
 - Credit score
 - Annual income
 - Monthly income
-- Montly debt
+- Monthly debt
 - Monthly debt vs Monthly income (Debt to income ratio)
 - Current loan amount
 - Current credit balance vs Max Open Credit (credit usage ratio)

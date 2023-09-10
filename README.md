@@ -32,3 +32,5 @@ We will train a model with machine learning using the bank loan status dataset t
 
 ## **Sources:**
 - Our dataset located in "/Resources/credit_data.csv" originated from https://www.kaggle.com/datasets/zaurbegiev/my-dataset?select=credit_test.csv. We renamed it from "credit_test.csv" to "credit_data.csv".
+- The basis for the code used in the "Mouting Google Drive Account" section of "/ETL/ETL_colab.ipynb" was found from https://saturncloud.io/blog/exporting-dataframe-as-csv-file-from-google-colab-to-google-drive/.
+- The basis for the code used in the "Un-Mouting Google Drive Account" section of "/ETL/ETL_colab.ipynb" was found from https://stackoverflow.com/questions/54837135/how-to-unmount-drive-in-google-colab-and-remount-to-another-drive.

@@ -9,15 +9,16 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
 
 ## **Objectives:**
 We will train a model with machine learning using the bank loan status dataset to predict the probababilty of a loan defaulting based on the following data:
-- Credit score.
-- Annual income.
-- Montly debt.
-- Debt to income ratio.
-- Current loan amount.
+- Credit score
+- Annual income
+- Monthly income
+- Montly debt
+- Monthly debt vs Monthly income (Debt to income ratio)
+- Current loan amount
 - Current credit balance vs Max Open Credit (credit usage ratio)
-- Number of past bankrupcies.
-- Number of credit problems.
-- Number of open accounts.
+- Number of past bankrupcies
+- Number of credit problems
+- Number of open accounts
 - Months since last delinquent
 
 ## **Instructions to replicate:**

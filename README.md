@@ -16,7 +16,7 @@ We will train a model with machine learning using the bank loan status dataset t
 - Monthly debt vs Monthly income (Debt to income ratio)
 - Current loan amount
 - Current credit balance vs Max Open Credit (credit usage ratio)
-- Number of past bankrupcies
+- Whether there had been past bankruptcies or not.
 - Number of credit problems
 - Number of open accounts
 - Months since last delinquent

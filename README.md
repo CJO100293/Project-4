@@ -22,8 +22,8 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
   - Credit Balance
   - Total Credit
   - Credit Usage Ratio
-  - Bankruptcies  \
-
+  - Bankruptcies
+  
 - We experimented using various different supervised machine learning algorithms such as logistic regression, KNeighbors and Random Forest to see which one could train the data with the best accuracy.
 - The "Bankruptcies" columns will be used as our labels and all other columns will be used as our features of each of the models.
 

@@ -42,9 +42,10 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
 - **ETL Files:**
   - **/ETL/ETL.ipynb** - This jupyter notebook takes the data from "/Resources/credit_data.csv" and performs some cleanup (ETL) work of the data and then exports it to a new CSV file located at "/output_data/ETL/csv/ETL_credit_data.csv".
   - **/ETL/ETL_colab.ipynb** - This jupyter notebook does the same as "/ETL/ETL.ipynb" except this version can be ran in the cloud using Google Colab
-  - **/ETL/ETL_Visualizations.ipynb** - This jupyter notebook takes the data from "/output_data/ETL/csv/ETL_credit_data.csv" and renames the values of the "bankruptcies" column from "0" to "No" and from "1" to "Yes" then exports it to a new CSV file located at "/output_data/ETL/csv/ETL_Visualizations_credit_data.csv".
+  - **/ETL/ETL_Visualizations.ipynb** - This jupyter notebook takes the data from "/output_data/ETL/csv/ETL_credit_data.csv" and changes the values of the "bankruptcies" column from "0" to "No" and from "1" to "Yes" then exports it to a new CSV file located at "/output_data/ETL/csv/ETL_Visualizations_credit_data.csv". This data will specifically be used only in our Tableau visualizations.
   - **/ETL/ETL_Visualizations_Colab.ipynb** - This jupyter notebook does the same as "/ETL/ETL_Visualizations.ipynb" except this version can be ran in the cloud using Google Colab
-  - **/output_data/ETL/csv/ETL_credit_data.csv** - This CSV file is what is created after ETL work is performed on the original data using "/ETL/ETL.ipynb".
+  - **/output_data/ETL/csv/ETL_credit_data.csv** - This CSV file is what is created after ETL work is performed on the original data using "/ETL/ETL.ipynb". This data will specifically be used only in our Tableau visualizations.
+  - **/output_data/ETL/csv/ETL_Visualizations_credit_data.csv** - This CSV file is what is created after "/output_data/ETL/csv/ETL_credit_data.csv" has its values of the "bankruptcies" column changed from "0" to "No" and from "1" to "Yes". 
 - **Supervised Machine Learning Files:**
   - **/ML/ML.ipynb** - This jupyter notebook performs supervised machine learning on the cleaned up data that was generated from "/ETL/ETL.ipynb".
   - **/ML/ML_colab.ipynb** - This jupyter notebook does the same as "/ML/ML.ipynb" except this version can be ran in the cloud using Google Colab.

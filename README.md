@@ -49,6 +49,8 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
 - **Supervised Machine Learning Files:**
   - **/ML/ML.ipynb** - This jupyter notebook performs supervised machine learning on the cleaned up data that was generated from "/ETL/ETL.ipynb".
   - **/ML/ML_colab.ipynb** - This jupyter notebook does the same as "/ML/ML.ipynb" except this version can be ran in the cloud using Google Colab.
+- **Tableau Visualization Files:**
+  - **/Visualizations/Project-4-Visualizations.twbx** - This file contains our tableau visualizations created using "/output_data/ETL/csv/ETL_Visualizations_credit_data.csv".
 
 ## **Sources:**
 - Our dataset located in "/Resources/credit_data.csv" originated from https://www.kaggle.com/datasets/zaurbegiev/my-dataset?select=credit_test.csv. We renamed it from "credit_test.csv" to "credit_data.csv".

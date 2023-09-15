@@ -40,8 +40,10 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
   - **README.md** - This readme file.
   - **/Resources/credit_data.csv** - The original dataset that is used in our project before any ETL work was performed.
 - **ETL Files:**
-  - **/ETL/ETL.ipynb** - This jupyter notebook takes the data from "/Resources/credit_data.csv" and performs some cleanup (ETL) work of the data anbd then exports it to a new CSV file located at "/output_data/ETL/csv/ETL_credit_data.csv".
+  - **/ETL/ETL.ipynb** - This jupyter notebook takes the data from "/Resources/credit_data.csv" and performs some cleanup (ETL) work of the data and then exports it to a new CSV file located at "/output_data/ETL/csv/ETL_credit_data.csv".
   - **/ETL/ETL_colab.ipynb** - This jupyter notebook does the same as "/ETL/ETL.ipynb" except this version can be ran in the cloud using Google Colab
+  - **/ETL/ETL_Visualizations.ipynb** - This jupyter notebook takes the data from "/output_data/ETL/csv/ETL_credit_data.csv" and renames the values of the "bankruptcies" column from "0" to "No" and from "1" to "Yes" then exports it to a new CSV file located at "/output_data/ETL/csv/ETL_Visualizations_credit_data.csv".
+  - **/ETL/ETL_Visualizations_Colab.ipynb** - This jupyter notebook does the same as "/ETL/ETL_Visualizations.ipynb" except this version can be ran in the cloud using Google Colab
   - **/output_data/ETL/csv/ETL_credit_data.csv** - This CSV file is what is created after ETL work is performed on the original data using "/ETL/ETL.ipynb".
 - **Supervised Machine Learning Files:**
   - **/ML/ML.ipynb** - This jupyter notebook performs supervised machine learning on the cleaned up data that was generated from "/ETL/ETL.ipynb".

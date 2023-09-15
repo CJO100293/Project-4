@@ -30,7 +30,7 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
 ## **Instructions to replicate:**
 1. Run the jupyter notebook "/ETL/ETL.ipynb" (or "/ETL/ETL_colab.ipynb" if using google collab. if using google collab then the path to where the CSV file "ETL_credit_data.csv" will be exported in the "Export the newly transformed dataframe into a csv" section will need to be changed to an empty existing directory in your google drive account.) This will clean up the data in "/Resources/credit_data.csv" by removing any unneeded or erroneous data and exports it into a new CSV file called "ETL_credit_data.csv".
 2. Run the jupyter notebook "/ML/ML.ipynb" (or "/ML/ML_Colab.ipynb" if using google collab). This will use various supervised machine learning algorithms to determine if the loan is at risk of default.
-3. You can then see the visualizations we made using "/output_data/ETL/csv/ETL_Visualizations_credit_data.csv" at "/Visualizations/Project-4-Visualizations.twbx" or by visiting https://public.tableau.com/app/profile/cody.osieczonek/viz/Project-4-Visualizations/BankruptciesPieGraph.
+3. You can then see the visualizations we made using "/output_data/ETL/csv/ETL_Visualizations_credit_data.csv" by opening "/Visualizations/Project-4-Visualizations.twbx" in Tableua or by visiting https://public.tableau.com/app/profile/cody.osieczonek/viz/Project-4-Visualizations/BankruptciesPieGraph.
 
 **Things To Note:**  \
   \

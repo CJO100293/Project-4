@@ -36,7 +36,7 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
 **We had removed row numbers 454, 539, 1754, 2682, 5863, 7085 and 9970 from "/output_data/ETL/csv/ETL_credit_data.csv" because it contained what we believe to be erroneous data shared between the "Total Credit" and "Credit Balance" columns. For example row 454 shows a credit balance of 515,261 even though available credit is 0. Due to this when we went to Create a new column named "Credit Usage Ratio" and have its values be equal to "Credit Balance / Total Credit" it caused it to give values of "inf" in these rows since 515261 is not divisible by 0. This in turn was causing trouble with our machine learning.**
 
 ## **Files:**
-- **Readme and Original Dataset:**
+- **README.md File and Original Dataset File:**
   - **README.md** - This readme file.
   - **/Resources/credit_data.csv** - The original dataset that is used in our project before any ETL work was performed.
 - **ETL Files:**

@@ -8,22 +8,28 @@
 We are taking data from a bank loan status dataset taken from https://www.kaggle.com/datasets/zaurbegiev/my-dataset?select=credit_test.csv and using it to predict the probababilty of a loan defaulting using machine learning algorithms.
 
 ## **Objectives:**
-We will train a model with machine learning using the bank loan status dataset to predict the probababilty of a loan defaulting based on the following data:
-- Credit score
-- Annual income
-- Monthly income
-- Monthly debt
-- Monthly debt vs Monthly income (Debt to income ratio)
-- Current loan amount
-- Current credit balance vs Max Open Credit (credit usage ratio)
-- Whether there had been past bankruptcies or not.
-- Number of credit problems
-- Number of open accounts
-- Months since last delinquent
+- We will train a model with machine learning using the bank loan status dataset to predict the probababilty of a loan defaulting based on the following data:
+  - Current Loan Amount
+  - Credit Score
+  - Annual Income
+  - Monthly Income
+  - Monthly Debt
+  - Debt / Income Ratio
+  - Credit History(Years)
+  - Months Delinquent
+  - Open Accounts
+  - Credit Problems
+  - Credit Balance
+  - Total Credit
+  - Credit Usage Ratio
+  - Bankruptcies  \
+
+- We experimented using various different supervised machine learning algorithms such as logistic regression, KNeighbors and Random Forest to see which one could train the data with the best accuracy.
+- The "Bankruptcies" columns will be used as our labels and all other columns will be used as our features of each of the models.
 
 ## **Instructions to replicate:**
 1. Run the jupyter notebook "/ETL/ETL.ipynb" (or "/ETL/ETL_colab.ipynb" if using google collab. if using google collab then the path to where the CSV file "ETL_credit_data.csv" will be exported in the "Export the newly transformed dataframe into a csv" section will need to be changed to an empty existing directory in your google drive account.) This will clean up the data in "/Resources/credit_data.csv" by removing any unneeded or erroneous data and exports it into a new CSV file called "ETL_credit_data.csv".
-2. Run the jupyter notebook "/ML/ML.ipynb" (or "/ML/ML_Colab.ipynb" if using google collab). This will use supervised machine learning to determine if the loan is at risk of default using the "Bankruptcies" column as labels and all of the other columns as features.
+2. Run the jupyter notebook "/ML/ML.ipynb" (or "/ML/ML_Colab.ipynb" if using google collab). This will use various supervised machine learning algorithms to determine if the loan is at risk of default.
 
 **Things To Note:**  \
   \

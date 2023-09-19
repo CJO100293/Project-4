@@ -36,6 +36,9 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
   \
 **We had removed row numbers 454, 539, 1754, 2682, 5863, 7085 and 9970 from "/output_data/ETL/csv/ETL_credit_data.csv" because it contained what we believe to be erroneous data shared between the "Total Credit" and "Credit Balance" columns. For example, row 454 shows a credit balance of 515,261 even though available credit is 0. Due to this when we went to Create a new column named "Credit Usage Ratio" and have its values be equal to "Credit Balance / Total Credit" it caused it to give values of "inf" in these rows since 515261 is not divisible by 0. This in turn was causing trouble with our machine learning.**
 
+## **Presentation**
+- Our project presentation can be viewed from either https://docs.google.com/presentation/d/1q3cAmkjD_Ox3ueyW58Ho7ot7wyKV6vFjrObQKJ35iT0/edit?usp=sharing or from the powerpoint file "/Presentation/Probability of Loan Defaults - Presentation.pptx".
+
 ## **Files:**
 - **README.md File and Original Dataset File:**
   - **README.md** - This readme file.
@@ -52,6 +55,8 @@ We are taking data from a bank loan status dataset taken from https://www.kaggle
   - **/ML/ML_colab.ipynb** - This jupyter notebook does the same as "/ML/ML.ipynb" except this version can be ran in the cloud using Google Colab.
 - **Tableau Visualization Files:**
   - **/Visualizations/Project-4-Visualizations.twbx** - This file contains our tableau visualizations created using "/output_data/ETL/csv/ETL_Visualizations_credit_data.csv".
+- **Project-Presentation Files:**
+  - **/Presentation/Probability of Loan Defaults - Presentation.pptx** - This file is the powerpoint file to our project presentation.
 
 ## **Sources:**
 - Our dataset located in "/Resources/credit_data.csv" originated from https://www.kaggle.com/datasets/zaurbegiev/my-dataset?select=credit_test.csv. We renamed it from "credit_test.csv" to "credit_data.csv".
